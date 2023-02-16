@@ -1,4 +1,4 @@
-package med.voll.api.entity;
+package med.voll.api.domain.medico;
 
 
 import jakarta.persistence.*;
@@ -6,10 +6,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
-import med.voll.api.dto.DtoAlteraMedico;
-import med.voll.api.dto.DtoCadastroMedico;
-import med.voll.api.enums.Especialidade;
-
+import med.voll.api.domain.endereco.Endereco;
 
 import java.util.UUID;
 

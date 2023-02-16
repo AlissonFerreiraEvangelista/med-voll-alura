@@ -1,4 +1,4 @@
-package med.voll.api.dto;
+package med.voll.api.domain.usuario;
 
 import jakarta.validation.constraints.*;
 

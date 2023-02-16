@@ -1,10 +1,8 @@
-package med.voll.api.dto;
+package med.voll.api.domain.medico;
 
 import java.util.UUID;
 
-import med.voll.api.entity.Endereco;
-import med.voll.api.entity.Medico;
-import med.voll.api.enums.Especialidade;
+import med.voll.api.domain.endereco.Endereco;
 
 public record DtoDetalhamentoMedico(
     UUID id,

@@ -1,4 +1,4 @@
-package med.voll.api.dto;
+package med.voll.api.domain.usuario;
 
 public record DtoToken(String Token) {
     

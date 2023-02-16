@@ -2,9 +2,9 @@ package med.voll.api.repository;
 
 
 
-import med.voll.api.entity.Medico;
 import org.springframework.data.jpa.repository.JpaRepository;
 
+import med.voll.api.domain.medico.Medico;
 
 import java.util.UUID;
 

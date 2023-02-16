@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.security.authentication.*;
 
 import jakarta.validation.Valid;
-import med.voll.api.dto.DtoAutenticacao;
-import med.voll.api.dto.DtoToken;
-import med.voll.api.entity.Usuario;
+import med.voll.api.domain.usuario.DtoAutenticacao;
+import med.voll.api.domain.usuario.DtoToken;
+import med.voll.api.domain.usuario.Usuario;
 import med.voll.api.repository.UsuarioRepository;
 import med.voll.api.service.TokenService;
 

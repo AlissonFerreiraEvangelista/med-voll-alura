@@ -1,7 +1,4 @@
-package med.voll.api.dto;
-
-import med.voll.api.entity.Medico;
-import med.voll.api.enums.Especialidade;
+package med.voll.api.domain.medico;
 
 import java.util.UUID;
 
